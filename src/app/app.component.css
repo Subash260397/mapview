@@ -1,0 +1,115 @@
+h1{
+    text-align:center
+}
+
+#mapView{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+/* .file-button {
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    padding: 5px;
+    font-size: 14px;
+    top:23px;
+    right:20px;
+    border: none;
+    border-radius: 2px;
+  }
+  
+  .file-button label {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .file-button input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  } */
+
+
+  .file-button {
+    position: absolute;
+    overflow: hidden;
+    display: inline-block;
+    padding: 5px;
+    font-size: 14px;
+    top:23px;
+    right:20px;
+    border: none;
+    
+    border-radius: 2px;
+  }
+  
+  .button-label {
+    display: block;
+    padding: 8px 16px;
+    background-color: #2b97cd;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .file-button input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  .groupingButton {
+    position: absolute;
+    overflow: hidden;
+    font-size: 14px;
+    top:140px;
+    right:20px;
+    border: none;
+    border-color: white;
+    border: 5px solid white;
+    border-radius: 2px;
+    padding: 8px 16px;
+    background-color: #2b97cd;
+    color: #333;
+  }
+
+  .UngroupingButton {
+    position: absolute;
+    overflow: hidden;
+    font-size: 14px;
+    top:80px;
+    right:20px;
+    border: none;
+  
+    border: 5px solid white;
+    border-radius: 2px;
+    padding: 8px 16px;
+    background-color: #2b97cd;
+    color: #333;
+  }
+
+  .checkboxes {
+    position: absolute;
+    top: 200px;
+    right: 21px;
+    z-index: 100;
+    background-color: rgb(43 151 205);
+    padding: 10px;
+    border-radius: 5px;
+    border: 5px solid white;
+  }
+
+
+
